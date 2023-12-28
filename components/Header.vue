@@ -22,7 +22,6 @@
                     <li>
                         <NuxtLink to="/contact" target="_self" exact-active-class="bg-zinc-700 text-white" class="py-1 px-4 bg-[#F8B500] hover:bg-zinc-700 hover:text-white transition-all delay-75 rounded-lg block">Contact</NuxtLink>
                     </li>
-                    
                 </ul>
             </div>
         </div>
