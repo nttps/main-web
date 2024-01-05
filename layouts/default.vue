@@ -6,9 +6,4 @@
         </main>
         <Footer />
     </div>
-
 </template>
-
-
-<style>
-</style>

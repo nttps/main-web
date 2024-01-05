@@ -84,12 +84,6 @@
                 <span class="text-5xl font-bold">S</span> 
                 <div>Strategy = Strategically aiming for the goal.</div>
             </div>
-
-            
-
-            
         </div>
-
     </div>
-    
 </template>
