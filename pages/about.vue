@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="max-w-screen-2xl w-full mx-auto mt-8 pb-4">
+    <div class="px-4 lg:px-0">
+        <div class="md:max-w-screen-xl w-full mx-auto mt-8 pb-4">
             <div class="flex justify-between mb-8 bg-zinc-100">
 
                 <div class="h-[185px] w-[196px] bg-[#2a363b]">
@@ -41,47 +41,52 @@
             <div class="text-6xl font-bold text-center mb-4"><h4 class="inline-block border-b-8 border-[#2a363b]  pb-4">Core Value</h4></div>
             <div class="flex flex-col justify-center text-2xl mx-auto max-w-4xl mb-4">
             
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
+                    <div class="text-5xl font-bold">C</div> 
+                    <div>Consultant =  Being a consultant suitable for the organizational needs of our clients.</div>
+                </div>
+
+                <div class="flex items-center space-x-4 mb-2">
                     <div class="text-5xl font-bold">Y</div> 
                     <div>You = You are an important customer.</div>
                 </div>
 
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">B</span> 
                     <div>Build Best Solution = Offering the best solutions to customers.</div>
                 </div>
 
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">E</span> 
                     <div>Excellenge Team work = Working as a quality and reliable team at all times.</div>
                 </div>
 
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">R</span> 
                     <div>Responsibility = Taking responsibility for tasks and duties at every stage of the work process.</div>
                 </div>
 
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">K</span> 
                     <div>Keen = Enthusiastic, daring to think, and proactive.</div>
                 </div>
                 
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">I</span> 
                     <div>Integration & Innovation = Integrating technology and fostering the creation of new innovations.</div>
                 </div>
                 
 
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">N</span> 
                     <div>New Idea = Innovating new things.</div>
                 </div>
 
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">G</span> 
                     <div>Growth Mindset = Unlimited development.</div>
                 </div>
-                <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-4 mb-2">
                     <span class="text-5xl font-bold">S</span> 
                     <div>Strategy = Strategically aiming for the goal.</div>
                 </div>

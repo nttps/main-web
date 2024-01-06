@@ -2,7 +2,7 @@
     <div class="bg-[#2a363b] py-16">
        <div class="max-w-screen-lg mx-auto w-full">
             <div class="text-5xl font-bold text-white text-center pb-4 border-b border-[#F8B500]">Contact Us</div>
-            <div class="grid grid-cols-3 mt-6 mb-8">
+            <div class="grid lg:grid-cols-3 mt-6 mb-8 text-center">
                 <div>
                     <div class="text-2xl font-bold text-[#F8B500] mb-4">Address</div>
                     <div class="text-white">47/317 Popular Road, Ban Mai, <br /> Pak kret District Nonthaburi 11120</div>
