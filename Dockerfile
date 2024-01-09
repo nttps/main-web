@@ -3,12 +3,18 @@ FROM node:18-alpine3.17 as build
 # update and install the latest dependencies for the alpine version
 RUN apk update && apk upgrade
 
+
 # set work dir as app
 WORKDIR /app
 # copy the nuxt project package json and package json lock if available 
 COPY package* ./
+
+
 # install all the project npm dependencies
 RUN npm install
+ARG NODE_OPTIONS=--max-old-space-size=4096
+
+
 # copy all other project files to working directory
 COPY . ./
 # build the nuxt project to generate the artifacts in .output directory
