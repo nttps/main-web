@@ -9,12 +9,12 @@
             </div>
         </div>
         
-        <div class="mt-4 mx-8 py-1 bg-[rgb(255,212,90)]"></div>
-        <div class="mt-1.5 mx-8 py-[1px] bg-[rgb(255,212,90)]"></div>
+        <div class="mt-4 lg:mx-8 py-1 bg-[rgb(255,212,90)]"></div>
+        <div class="mt-1.5 lg:mx-8 py-[1px] bg-[rgb(255,212,90)]"></div>
 
         <div class="lg:grid grid-cols-3 max-w-screen-xl px-8 2xl:px-0 max-w w-full mx-auto gap-x-4 border-b border-black py-12">
-            <div class="pr-4">
-                <div class="text-3xl font-bold mb-1">Solutions</div>
+            <div class="lg:pr-4 mb-4 lg:mb-0">
+                <div class="mb-4 text-3xl font-bold">Solutions</div>
                 <div class=" text-justify">
                     Customers are the crucial force that drives development and improvement in all aspects of the business. We not only provide services with a technical expert team that deeply understands IT, but also emphasize building strong and lasting relationships. We strive to understand customers in every aspect of their mission, enabling us to offer the most up-to-date and suitable solutions and services. We are dedicated to ensuring our customers achieve success and efficiency in utilizing IT resources.
                 </div>
@@ -34,36 +34,36 @@
                     <li>Infrastructure and Engineering</li>
                     <li>Training Services</li>
                 </ul>
-                <NuxtLink to="/solutions" class="bg-black py-1 px-4 text-white rounded-full inline-block mx-auto shadow-[0_4px_0_0_rgba(248,181,0,1)]">Read more</NuxtLink>
+                <NuxtLink to="/solutions" class="bg-black py-1 px-4 text-white rounded-full inline-block mx-auto shadow-[0_4px_0_0_rgba(248,181,0,1)] text-center w-full lg:w-max">Read more</NuxtLink>
             </div>
         </div>
         <div>
             <div class="text-center text-3xl font-bold mb-4">OUR CLIENTS</div>
             <div class="bg-gradient-to-b from-[#2A363B] to-[#FFFFFF] py-4">
-                <div class="flex flex-wrap lg:flex-nowrap justify-center mb-4 lg:space-x-4">
+                <div class="px-2 lg:px-0 grid grid-cols-3 lg:flex flex-wrap lg:flex-nowrap justify-center mb-4 gap-4 lg:space-x-4">
                     <div c> 
-                        <img src="~assets/images/disaster-logo.png" class="h-[130px]" alt="">
+                        <img src="~assets/images/disaster-logo.png" class="h-[100px] lg:h-[130px] mx-auto" alt="">
                     </div>
                     <div>
-                        <img src="~assets/images/spa-logo.jpg"  class="h-[130px]" alt="">
+                        <img src="~assets/images/spa-logo.jpg"  class="h-[100px] lg:h-[130px] mx-auto" alt="">
                     </div>
                     <div>
-                        <img src="~assets/images/wma-logo.jpeg" class="h-[130px]" alt="">
+                        <img src="~assets/images/wma-logo.jpeg" class="h-[100px] lg:h-[130px] mx-auto" alt="">
                     </div>
                     <div>
-                        <img src="~assets/images/aiti-money-logo.png" class="h-[130px]" alt="">
+                        <img src="~assets/images/aiti-money-logo.png" class="h-[100px] lg:h-[130px] mx-auto" alt="">
                     </div>
                     <div>
-                        <img src="~assets/images/ministry-logo.png" class="h-[130px]" alt="">
+                        <img src="~assets/images/ministry-logo.png" class="h-[100px] lg:h-[130px] mx-auto" alt="">
                     </div>
                     <div>
-                        <img src="~assets/images/school-logo.png" class="h-[130px]" alt="">
+                        <img src="~assets/images/school-logo.png" class="h-[100px] lg:h-[130px] mx-auto" alt="">
                     </div>
                     <div>
-                        <img src="~assets/images/rtarf-logo.png" class="h-[130px]" alt="">
+                        <img src="~assets/images/rtarf-logo.png" class="h-[100px] lg:h-[130px] mx-auto" alt="">
                     </div>
                 </div>
-                <div class="flex justify-center space-x-4">
+                <div class="px-2 lg:px-0 grid grid-cols-2 lg:flex lg:justify-center gap-4 lg:space-x-4">
                     <div>
                         <img src="~assets/images/sordorchor-logo.webp" class="h-[79px]" alt="">
                     </div>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="py-2 text-center bg-[#2a363b] text-white">
+            <div class="p-2 text-center bg-[#2a363b] text-white">
                 <div class=" text-lg">
                     CyberKings collaborates with business partners to work together in operating businesses comprehensively in all <br /> aspects for maximum efficiency, resulting in the highest customer satisfaction.
                 </div>
@@ -86,57 +86,58 @@
             </div>
         </div>
         <div class=" max-w-screen-xl px-8 2xl:px-0 max-w w-full mx-auto mt-8 pb-4">
-            <div class="flex border-b-2 border-black pb-2 mb-5 text-4xl font-bold ">
-                <div class="w-1/2">Partners Clients</div>
-                <div class="w-1/2">Consult Clients</div>
-            </div>
-            <div class="flex">
-                <div class="w-1/2 border-dashed border-r-2 border-black">
-                    <div class="flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between mb-2 space-x-2 mr-8">
-                        <div class="mb-2">
-                            <img src="~/assets/images/ait-logo.png" class="w-full h-[80px] object-contain" alt="">
+            <div class="lg:flex pb-2 lg:mb-5 text-3xl lg:text-4xl font-bold ">
+                <div class="lg:w-1/2 mb-4 border-b-2 border-black lg:border-0">
+                    <div class="text-center lg:text-left mb-2 lg:border-b-2 lg:border-black ">Partners Clients</div>
+                    <div class="border-dashed lg:border-r-2 border-black">
+                        <div class="grid grid-cols-3 lg:flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between lg:mb-2 space-x-2 lg:mr-8">
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/ait-logo.png" class="w-full h-[80px] object-contain" alt="">
+                            </div>
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/msitem-logo.png" class="w-full h-[80px] object-contain" alt="">
+                            </div>
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/sis-logo.png" class="w-full h-[80px] object-contain" alt="">
+                            </div>
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/athentic-logo.png" class="w-full h-[80px] object-contain" alt="">
+                            </div>
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/enterprise-logo.png" class="w-full h-[80px] object-contain" alt="">
+                            </div>
                         </div>
-                        <div class="mb-2">
-                            <img src="~/assets/images/msitem-logo.png" class="w-full h-[80px] object-contain" alt="">
-                        </div>
-                        <div class="mb-2">
-                            <img src="~/assets/images/sis-logo.png" class="w-full h-[80px] object-contain" alt="">
-                        </div>
-                        <div class="mb-2">
-                            <img src="~/assets/images/athentic-logo.png" class="w-full h-[80px] object-contain" alt="">
-                        </div>
-                        <div class="mb-2">
-                            <img src="~/assets/images/enterprise-logo.png" class="w-full h-[80px] object-contain" alt="">
+                        <div class="grid grid-cols-3 lg:flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between space-x-2 lg:mr-8">
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/sansung-logo.png" class="lg:h-[30px] lg:w-[195px] object-cover" alt="">
+                            </div>
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/veritas-logo.png" class="lg:h-[30px] object-cover" alt="">
+                                <img src="~/assets/images/eventpop-logo.png" class="lg:h-[30px] object-cover" alt="">
+                            </div>
+                            <div class="lg:mb-2">
+                                <img src="~/assets/images/svtecs-logo.png" class="lg:h-[87px] w-[176px] object-cover" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between space-x-2 mr-8">
-                        <div class="mb-2">
-                            <img src="~/assets/images/sansung-logo.png" class="h-[30px] w-[195px] object-cover" alt="">
-                        </div>
-                        <div class="mb-2">
-                            <img src="~/assets/images/veritas-logo.png" class="h-[30px] object-cover mb-2" alt="">
-                            <img src="~/assets/images/eventpop-logo.png" class="h-[30px] object-cover" alt="">
-                        </div>
-                        <div class="mb-2">
-                            <img src="~/assets/images/svtecs-logo.png" class="h-[87px] w-[176px] object-cover" alt="">
-                        </div>
-                    </div>
-                    
-                    
+                     
                 </div>
-                <div class="w-1/2 ml-8">
-                    <div class="flex flex-wrap lg:flex-nowrap items-end mb-2 space-y-2 lg:space-y-0 lg:space-x-6 mr-8">
-                        <div class="w-1/2 lg:w-full">
-                            <img src="~/assets/images/songklauniversity-logo.png" class="h-[116px] object-cover" alt="">
-                        </div>
-                        <div class="w-1/2 lg:w-full">
-                            <img src="~/assets/images/thammasat-logo.png" class="h-[80px] object-cover" alt="">
-                        </div>
-                        <div class="w-1/2 lg:w-full">
-                            <img src="~/assets/images/kingmongkut-logo.png" class="h-[80px] object-cover" alt="">
-                        </div>
-                        <div class="w-1/2 lg:w-full">
-                            <img src="~/assets/images/kaset-logo.png" class="h-[80px] object-cover" alt="">
+                <div class="lg:w-1/2">
+                    <div class="text-center lg:text-left lg:border-b-2 lg:border-black ">Consult Clients</div>
+                    <div class="lg:ml-8">
+                        <div class="grid grid-cols-2 lg:grid-cols-4 flex-wrap lg:flex-nowrap items-end mb-2 space-y-2 lg:space-y-0 lg:space-x-6 mr-8">
+                            <div class="lg:w-full">
+                                <img src="~/assets/images/songklauniversity-logo.png" class="h-[150px]  object-cover mx-auto lg:mx-0" alt="">
+                            </div>
+                            <div class="lg:w-full">
+                                <img src="~/assets/images/thammasat-logo.png" class="h-[100px] object-cover mx-auto lg:mx-0" alt="">
+                            </div>
+                            <div class="lg:w-full">
+                                <img src="~/assets/images/kingmongkut-logo.png" class="h-[100px] object-cover mx-auto lg:mx-0" alt="">
+                            </div>
+                            <div class="lg:w-full">
+                                <img src="~/assets/images/kaset-logo.png" class="h-[100px] object-cover mx-auto lg:mx-0" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
