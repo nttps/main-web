@@ -12,7 +12,7 @@
 
                 </div>
             </div>
-            <div>
+            <div class=" text-justify">
                 <span class="text-2xl">​Founded in 2020</span>, it is a company that provides consulting services, technical solutions, and processes for setting up systems, managing, supervising, analyzing, and evaluating risks. and issue a summary report Along with providing convenience to customers by both leasing and leasing equipment services with maintenance along with selecting products with modern technology suitable and quality to suit the needs of the organization to support future system expansion Easy to manage under a reasonable budget and has cooperated with agencies and business partners to work together to conduct business in all aspects for maximum efficiency which will bring maximum customer satisfaction.
             </div>
         </div>
@@ -39,7 +39,7 @@
                 
             </div>
             <div class="text-6xl font-bold text-center mb-4"><h4 class="inline-block border-b-8 border-[#2a363b]  pb-4">Core Value</h4></div>
-            <div class="flex flex-col justify-center text-2xl mx-auto max-w-4xl mb-4">
+            <div class="flex flex-col justify-center text-2xl mx-auto max-w-6xl mb-4">
             
                 <div class="flex items-center space-x-4 mb-2">
                     <div class="text-5xl font-bold">C</div> 

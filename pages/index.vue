@@ -8,11 +8,12 @@
             </div>
             </div>
         </div>
+        
         <div class="mt-4 mx-8 py-1 bg-[rgb(255,212,90)]"></div>
         <div class="mt-1.5 mx-8 py-[1px] bg-[rgb(255,212,90)]"></div>
 
-        <div class="lg:grid grid-cols-3 max-w-screen-2xl w-full mx-auto gap-x-4 border-b border-black py-12">
-            <div class="p-4">
+        <div class="lg:grid grid-cols-3 max-w-screen-xl px-8 2xl:px-0 max-w w-full mx-auto gap-x-4 border-b border-black py-12">
+            <div class="pr-4">
                 <div class="text-3xl font-bold mb-1">Solutions</div>
                 <div class=" text-justify">
                     Customers are the crucial force that drives development and improvement in all aspects of the business. We not only provide services with a technical expert team that deeply understands IT, but also emphasize building strong and lasting relationships. We strive to understand customers in every aspect of their mission, enabling us to offer the most up-to-date and suitable solutions and services. We are dedicated to ensuring our customers achieve success and efficiency in utilizing IT resources.
@@ -84,7 +85,7 @@
                 <div class="mt-4">Products with modern technology and suitable quality.</div>
             </div>
         </div>
-        <div class="max-w-screen-2xl w-full mx-auto mt-8 pb-4 px-6">
+        <div class=" max-w-screen-xl px-8 2xl:px-0 max-w w-full mx-auto mt-8 pb-4">
             <div class="flex border-b-2 border-black pb-2 mb-5 text-4xl font-bold ">
                 <div class="w-1/2">Partners Clients</div>
                 <div class="w-1/2">Consult Clients</div>
@@ -93,19 +94,19 @@
                 <div class="w-1/2 border-dashed border-r-2 border-black">
                     <div class="flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between mb-2 space-x-2 mr-8">
                         <div class="mb-2">
-                            <img src="~/assets/images/ait-logo.png" class="h-[80px] object-cover" alt="">
+                            <img src="~/assets/images/ait-logo.png" class="w-full h-[80px] object-contain" alt="">
                         </div>
                         <div class="mb-2">
-                            <img src="~/assets/images/msitem-logo.png" class="h-[80px] object-cover" alt="">
+                            <img src="~/assets/images/msitem-logo.png" class="w-full h-[80px] object-contain" alt="">
                         </div>
                         <div class="mb-2">
-                            <img src="~/assets/images/sis-logo.png" class="h-[80px] object-cover" alt="">
+                            <img src="~/assets/images/sis-logo.png" class="w-full h-[80px] object-contain" alt="">
                         </div>
                         <div class="mb-2">
-                            <img src="~/assets/images/athentic-logo.png" class="h-[80px] object-cover" alt="">
+                            <img src="~/assets/images/athentic-logo.png" class="w-full h-[80px] object-contain" alt="">
                         </div>
                         <div class="mb-2">
-                            <img src="~/assets/images/enterprise-logo.png" class="h-[80px] object-cover" alt="">
+                            <img src="~/assets/images/enterprise-logo.png" class="w-full h-[80px] object-contain" alt="">
                         </div>
                     </div>
                     <div class="flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between space-x-2 mr-8">
