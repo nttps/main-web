@@ -14,7 +14,7 @@
 
         <div class="lg:grid grid-cols-3 max-w-screen-xl px-8 2xl:px-0 max-w w-full mx-auto gap-x-4 border-b border-black py-12">
             <div class="lg:pr-4 mb-4 lg:mb-0">
-                <div class="mb-4 text-3xl font-bold">Solutions</div>
+                <div class="mb-4 text-2xl lg:text-4xl font-bold">Solutions</div>
                 <div class=" text-justify">
                     Customers are the crucial force that drives development and improvement in all aspects of the business. We not only provide services with a technical expert team that deeply understands IT, but also emphasize building strong and lasting relationships. We strive to understand customers in every aspect of their mission, enabling us to offer the most up-to-date and suitable solutions and services. We are dedicated to ensuring our customers achieve success and efficiency in utilizing IT resources.
                 </div>
