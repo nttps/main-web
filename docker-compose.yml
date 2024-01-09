@@ -1,4 +1,7 @@
 version: "3"
+
+volumes:
+  node_modules:
 services:
   web:
     build:
