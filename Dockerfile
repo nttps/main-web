@@ -35,7 +35,7 @@ WORKDIR /app
 COPY --chown=nuxtuser:nuxtuser --from=build /app/.output ./
 # expose 8080 on container
 EXPOSE 8080
-EXPOSE 443
+#EXPOSE 443
 
 
 # set app host and port . In nuxt 3 this is based on nitro and you can read
