@@ -34,7 +34,7 @@ WORKDIR /app
 # build stage with proper permissions for user nuxt user
 COPY --chown=nuxtuser:nuxtuser --from=build /app/.output ./
 # expose 8080 on container
-EXPOSE 8080
+#EXPOSE 8080
 #EXPOSE 443
 
 
