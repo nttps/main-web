@@ -1,7 +1,8 @@
 version: "3"
 services:
-  my-app:
+  web:
     build:
       context: .
     ports:
       - "80:80"
+      - "443:443"

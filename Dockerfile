@@ -1,19 +1,20 @@
+FROM node:lts-alpine AS builder
+
+ENV NODE_ENV=production
+
+WORKDIR /app
+
+COPY . /app
+
+RUN npm install
+RUN npm run build
+
+# start final image
 FROM node:lts-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY --from=builder /app /app
 
-RUN npm ci
 
-COPY . .
-
-RUN npm run build
-
-# customize port 80
-EXPOSE 80
-CMD ["node", "NITRO_PORT=80 node .output/server/index.mjs"]
-
-# default port 3000
-# EXPOSE 3000
-# CMD ["node", ".output/server/index.mjs"]
+ENTRYPOINT ["node", ".output/server/index.mjs"]
