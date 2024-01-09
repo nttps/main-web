@@ -94,3 +94,12 @@
         </div>
     </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'About | K - Cyberkings SIZE',
+  meta: [
+    { name: 'description', content: 'K - Cyberkings SIZE' }
+  ],
+})
+</script>
