@@ -73,9 +73,6 @@
                     <div>
                         <img src="~assets/images/gisda-logo.jpeg" class="h-[79px]" alt="">
                     </div>
-                    <div>
-                        <img src="~assets/images/aot-logo.jpeg" class="h-[79px]" alt="">
-                    </div>
                 </div>
             </div>
             <div class="p-2 text-center bg-[#2a363b] text-white">
@@ -127,16 +124,10 @@
                     <div class="lg:ml-8">
                         <div class="grid grid-cols-2 lg:grid-cols-4 flex-wrap lg:flex-nowrap items-end mb-2 space-y-2 lg:space-y-0 lg:space-x-6 mr-8">
                             <div class="lg:w-full">
-                                <img src="~/assets/images/songklauniversity-logo.png" class="h-[150px]  object-cover mx-auto lg:mx-0" alt="">
-                            </div>
-                            <div class="lg:w-full">
                                 <img src="~/assets/images/thammasat-logo.png" class="h-[100px] object-cover mx-auto lg:mx-0" alt="">
                             </div>
                             <div class="lg:w-full">
                                 <img src="~/assets/images/kingmongkut-logo.png" class="h-[100px] object-cover mx-auto lg:mx-0" alt="">
-                            </div>
-                            <div class="lg:w-full">
-                                <img src="~/assets/images/kaset-logo.png" class="h-[100px] object-cover mx-auto lg:mx-0" alt="">
                             </div>
                         </div>
                     </div>
