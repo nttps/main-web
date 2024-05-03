@@ -97,9 +97,9 @@
 
 <script setup>
 useHead({
-  title: 'About | K - Cyberkings SIZE',
+  title: 'About | Cyberkings',
   meta: [
-    { name: 'description', content: 'K - Cyberkings SIZE' }
+    { name: 'description', content: 'Cyberkings' }
   ],
 })
 </script>
