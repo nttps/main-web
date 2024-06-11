@@ -92,13 +92,7 @@
                                 <img src="~/assets/images/ait-logo.png" class="w-full h-[80px] object-contain" alt="">
                             </div>
                             <div class="lg:mb-2">
-                                <img src="~/assets/images/msitem-logo.png" class="w-full h-[80px] object-contain" alt="">
-                            </div>
-                            <div class="lg:mb-2">
                                 <img src="~/assets/images/sis-logo.png" class="w-full h-[80px] object-contain" alt="">
-                            </div>
-                            <div class="lg:mb-2">
-                                <img src="~/assets/images/athentic-logo.png" class="w-full h-[80px] object-contain" alt="">
                             </div>
                             <div class="lg:mb-2">
                                 <img src="~/assets/images/enterprise-logo.png" class="w-full h-[80px] object-contain" alt="">
