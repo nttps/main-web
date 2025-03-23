@@ -18,7 +18,7 @@
                     Contact
                 </NuxtLink>
 
-                <div class="text-sm md:text-base grid grid-cols-2">
+                <div class="text-sm md:text-base grid grid-cols-1 lg:grid-cols-2">
                     <div>
                         General <br />
                         Email : Admin@cyberkings.biz <br />
