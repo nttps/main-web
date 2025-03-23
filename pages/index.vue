@@ -87,31 +87,24 @@
                 <div class="lg:w-1/2 mb-4 border-b-2 border-black lg:border-0">
                     <div class="text-center lg:text-left mb-2 lg:border-b-2 lg:border-black ">Partners Clients</div>
                     <div class="border-dashed lg:border-r-2 border-black">
-                        <div class="grid grid-cols-3 lg:flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between lg:mb-2 space-x-2 lg:mr-8">
+                        <div class="grid grid-cols-3 items-center justify-around lg:justify-between space-x-2 lg:mr-8">
                             <div class="lg:mb-2">
-                                <img src="~/assets/images/ait-logo.png" class="w-full h-[80px] object-contain" alt="">
+                                <img src="~/assets/images/sis-logo.png" class="w-full h-[80px] object-contain mx-auto" alt="">
                             </div>
                             <div class="lg:mb-2">
-                                <img src="~/assets/images/sis-logo.png" class="w-full h-[80px] object-contain" alt="">
+                                <img src="~/assets/images/sansung-logo.png" class="lg:h-[30px] lg:w-[195px] object-cover mx-auto" alt="">
                             </div>
                             <div class="lg:mb-2">
-                                <img src="~/assets/images/enterprise-logo.png" class="w-full h-[80px] object-contain" alt="">
-                            </div>
-                        </div>
-                        <div class="grid grid-cols-3 lg:flex flex-wrap lg:flex-nowrap items-center justify-around lg:justify-between space-x-2 lg:mr-8">
-                            <div class="lg:mb-2">
-                                <img src="~/assets/images/sansung-logo.png" class="lg:h-[30px] lg:w-[195px] object-cover" alt="">
+                                <img src="~/assets/images/veritas-logo.png" class="lg:h-[30px] object-cover mx-auto" alt="">
                             </div>
                             <div class="lg:mb-2">
-                                <img src="~/assets/images/veritas-logo.png" class="lg:h-[30px] object-cover" alt="">
                                 <img src="~/assets/images/eventpop-logo.png" class="lg:h-[30px] object-cover" alt="">
                             </div>
                             <div class="lg:mb-2">
-                                <img src="~/assets/images/svtecs-logo.png" class="lg:h-[87px] w-[176px] object-cover" alt="">
+                                <img src="~/assets/images/svtecs-logo.png" class="lg:h-[87px] w-[176px] object-cover mx-auto" alt="">
                             </div>
                         </div>
                     </div>
-                     
                 </div>
                 <div class="lg:w-1/2">
                     <div class="text-center lg:text-left lg:border-b-2 lg:border-black ">Consult Clients</div>

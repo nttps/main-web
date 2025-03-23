@@ -18,10 +18,17 @@
                     Contact
                 </NuxtLink>
 
-                <div class="text-sm md:text-base">
-                    General <br />
-                    Email : Admin@cyberkings.biz <br />
-                    Phone : 097 - 446 - 5665np
+                <div class="text-sm md:text-base grid grid-cols-2">
+                    <div>
+                        General <br />
+                        Email : Admin@cyberkings.biz <br />
+                        Phone : 097 - 446 - 5665
+                    </div>
+                    <div>
+                        Sales <br />
+                        Email : Kirilyn.b@cyberkings.biz <br />
+                        Phone : 097 - 446 - 5665
+                    </div>
                 </div>
             </div>
         </div>

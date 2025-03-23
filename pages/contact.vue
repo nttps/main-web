@@ -9,7 +9,7 @@
                 </div>
                 <div>
                     <div class="text-2xl font-bold text-[#F8B500] mb-4">Contact</div>
-                    <div class="text-white">General <br /> Admin@cyberkings.biz <br /> 097 - 446 - 5665 </div>
+                    <div class="text-white">General <br /> Admin@cyberkings.biz <br /> 097 - 446 - 5665 <br /> <br /> Sales <br /> Kirilyn.b@cyberkings.biz <br /> 097 - 446 - 5665 </div>
                 </div>
                 <div>
                     <div class="text-2xl font-bold text-[#F8B500] mb-4">Opening Hours</div>
